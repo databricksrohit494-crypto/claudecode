@@ -1,0 +1,13 @@
+[project]
+name = "claudecode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-anthropic>=1.4.0",
+    "httpx>=0.24.0",
+    "pandas>=3.0.1",
+    "pyarrow>=23.0.1",
+]
