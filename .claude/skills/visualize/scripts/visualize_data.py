@@ -11,7 +11,23 @@ from pathlib import Path
 from datetime import datetime
 
 # Setup
-DATA_DIR = Path(r"e:\vscode\claudecode\.claude\skills\fetchAPI\data\2026-03-22_00-45-35")
+def getLatestDataDir(base_dir: Path) -> Path:
+    """Get the latest timestamped folder from the data directory."""
+    if not base_dir.exists():
+        raise FileNotFoundError(f"Data directory not found: {base_dir}")
+
+    folders = [d for d in base_dir.iterdir() if d.is_dir()]
+    if not folders:
+        raise FileNotFoundError(f"No data folders found in {base_dir}")
+
+    # Sort by modification time, get the latest
+    latest = max(folders, key=lambda p: p.stat().st_mtime)
+    return latest
+
+FETCH_API_DIR = Path(".claude/skills/fetchAPI/data")
+DATA_DIR = getLatestDataDir(FETCH_API_DIR)
+print(f"Using data from: {DATA_DIR}")
+
 OUTPUT_DIR = Path(r"e:\vscode\claudecode\.claude\skills\visualize\visualizations")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -1,0 +1,34 @@
+2026-03-25 03:25:35,076 - fetchAPI - INFO - ============================================================
+2026-03-25 03:25:35,076 - fetchAPI - INFO - Starting API Data Fetch
+2026-03-25 03:25:35,076 - fetchAPI - INFO - ============================================================
+2026-03-25 03:25:35,076 - fetchAPI - INFO - Timestamp: 2026-03-25_03-25-35
+2026-03-25 03:25:35,076 - fetchAPI - INFO - Number of URLs to fetch: 6
+2026-03-25 03:25:35,077 - fetchAPI - INFO - Data directory: .claude\skills\fetchAPI\data\2026-03-25_03-25-35
+2026-03-25 03:25:35,077 - fetchAPI - INFO - Log file: .claude\skills\fetchAPI\logs\2026-03-25_03-25-35\fetchAPI.log
+2026-03-25 03:25:35,121 - fetchAPI - INFO - ============================================================
+2026-03-25 03:25:35,274 - fetchAPI - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv
+2026-03-25 03:25:35,343 - fetchAPI - INFO - [OK] Successfully saved: dim_customer.csv (3695 bytes)
+2026-03-25 03:25:35,344 - fetchAPI - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv
+2026-03-25 03:25:35,354 - fetchAPI - INFO - [OK] Successfully saved: dim_store.csv (441 bytes)
+2026-03-25 03:25:35,354 - fetchAPI - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv
+2026-03-25 03:25:35,364 - fetchAPI - INFO - [OK] Successfully saved: dim_date.csv (6708 bytes)
+2026-03-25 03:25:35,364 - fetchAPI - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv
+2026-03-25 03:25:35,374 - fetchAPI - INFO - [OK] Successfully saved: dim_product.csv (648 bytes)
+2026-03-25 03:25:35,374 - fetchAPI - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv
+2026-03-25 03:25:35,396 - fetchAPI - INFO - [OK] Successfully saved: fact_sales.csv (335457 bytes)
+2026-03-25 03:25:35,396 - fetchAPI - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv
+2026-03-25 03:25:35,451 - fetchAPI - INFO - [OK] Successfully saved: fact_returns.csv (6612 bytes)
+2026-03-25 03:25:35,452 - fetchAPI - INFO - ============================================================
+2026-03-25 03:25:35,452 - fetchAPI - INFO - Results Summary:
+2026-03-25 03:25:35,452 - fetchAPI - INFO -   Total URLs: 6
+2026-03-25 03:25:35,452 - fetchAPI - INFO -   Successful: 6
+2026-03-25 03:25:35,453 - fetchAPI - INFO -   Failed: 0
+2026-03-25 03:25:35,453 - fetchAPI - INFO -   [OK] SUCCESS: dim_customer.csv
+2026-03-25 03:25:35,453 - fetchAPI - INFO -   [OK] SUCCESS: dim_store.csv
+2026-03-25 03:25:35,453 - fetchAPI - INFO -   [OK] SUCCESS: dim_date.csv
+2026-03-25 03:25:35,453 - fetchAPI - INFO -   [OK] SUCCESS: dim_product.csv
+2026-03-25 03:25:35,453 - fetchAPI - INFO -   [OK] SUCCESS: fact_sales.csv
+2026-03-25 03:25:35,453 - fetchAPI - INFO -   [OK] SUCCESS: fact_returns.csv
+2026-03-25 03:25:35,453 - fetchAPI - INFO - ============================================================
+2026-03-25 03:25:35,453 - fetchAPI - INFO - API Data Fetch Completed
+2026-03-25 03:25:35,453 - fetchAPI - INFO - ============================================================
